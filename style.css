@@ -1,0 +1,175 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+
+.Home{
+    margin:0;
+    padding:0;
+    position: relative;
+
+}
+
+.HomeText{
+    text-align: center;
+    font-size: 5rem;
+    margin: 50px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #CD5C08;
+    
+}
+
+.myResumeImage{
+    width: 500px;
+    margin: 0 350px;
+    border: 1px solid black;
+
+}
+
+.HomeText2{
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: #CD5C08;
+    font-family: 'Pacifico';
+}
+@media(max-width: 1300px){
+    .HomeText{
+        font-size: 2.5rem;
+    }
+
+    .HomeText2{
+        font-size: 2.5rem;
+    }
+
+    .myResumeImage{
+        width: 400px;
+        margin: 0 30px;
+    
+    }
+
+}
+@media(max-width: 600px){
+    .HomeText{
+        font-size: 2rem;
+    }
+
+    .HomeText2{
+        font-size: 2rem;
+    }
+
+    .myResumeImage{
+        width: 200px;
+        margin: 0 0px;
+    
+    }
+
+}
+
+.myHero{
+    border-radius: 50%;
+}
+
+.myResume{
+    text-align: center;
+    margin: 15px;
+}
+
+.Contact{
+    padding: 10px 300px;
+}
+
+h1{
+    color: #F5E8B7;
+    font-family: 'Pacifico', 'cursive';
+
+}
+
+h2{
+    color: #6A9C89;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+}
+
+h3{
+    color: #C1D8C3;
+    font-family: sans-serif;
+
+}
+
+p{
+    font-family: serif;
+
+}
+
+hr{
+    margin: 100px auto;
+    border: 1px dashed #6A9C89;
+    width: 10%
+
+}
+
+form{
+    width: 80%;
+
+}
+
+.contactGroup{
+    margin: 5%;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: black;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px 0;
+    color: black;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color:#CD5C08;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    color: transparent;
+
+}
+
+.Footer{
+    background-color: #C1D8C3;
+}
